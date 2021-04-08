@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    background-color: black;
+    justify-content: flex-end;    
+    height: 60px;    
+}
+.containerAvatar{
+    margin-top:     5px;
+    margin-right:   20px;
+}
+.userName{
+    color: white;
+    margin: 20px;
+    font-weight: bold;    
+}
+.avatar {
+    vertical-align: middle;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  select{
+      margin-right:13px;
+      background-color: black;      
+      color:  white;
+      border: none;
+  }
+  select:hover{
+   cursor: pointer;   
+   border:1px solid blue;
+   border-radius: 10px;
+   box-shadow: 2px 2px 2px gray;
+  }
+
+  .item{
+      background-color: white;
+      color: black;      
+  }
+
+  nav{
+    margin-top: 10px;
+    border-radius: 2px;
+    height: 5vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 2px 2px 2px 2px gray;
+    text-align: center;
+  }
+  .tabs{
+      border-radius: 12px;
+      display: flex;
+      justify-content: center;
+      height: 5vh;
+   
+  }
+  .tab{            
+      display: flex;
+      width: 33%;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  a{
+      text-decoration: none;
+      color: black;
+  }
+  .titletable{      
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 15px;
+  }
+  .table{      
+      border-radius: 5px ;
+      margin-left: 5%;
+      margin-right:5%;  
+      border: 0.1em solid black;
+      padding: 2px;
+
+  }
+ 
+tr{
+    
+    box-shadow: 1px 2px 4px gray;
+    height: 10px;
+    margin-bottom: 10px;
+}
+
+td{
+    box-shadow: 1px 2px 4px gray;
+
+    height: 4vh;
+    text-align: center;    
+
+}
+
+.img{
+    margin-top: 10px;
+    height: 15vh;    
+}  
